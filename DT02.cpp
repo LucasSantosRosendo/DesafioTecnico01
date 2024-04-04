@@ -50,11 +50,11 @@ int main()
     else {
         cout<<"ERR0: Por favor, digite um número válido." << endl;
     }
-   cout<<"Quantos gatinhos você acha que tem na entidade Gatos Unidos?" << endl;
+   cout<<"Qual a nota você dá para o nosso prático tour?" << endl;
    cin>> contador;
    for (contador = 0; contador < 10; contador+1)
     {
-    cout<<"Você errou! São na verdade 20 gatinhos acolhidos pela associação!" << endl;
+    cout<<"Obrigado pela avaliação! É sempre um prazer!" << endl;
     break;
     }
     do {
