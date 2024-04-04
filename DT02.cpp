@@ -39,12 +39,12 @@ int main()
     }
     cout<<"Nosso pequeno tour de informações acabou, você deseja receber um extra de curiosidades?" << endl;
     cout<<"1. Sim" << endl;
-    cout<<"2. Não" << endl;
+    cout<<"Qualquer outro número: Não" << endl;
     cin>> opcao2; 
     if (opcao == 1){
         cout<<"O professor Moriarty obteve seu amor por gatos após adotar um pequeno filhote chamado Aurora." << endl;
     }
-    else if (opcao!=1) {
+    else if (opcao>1) {
         cout<<"Vejo que você não quer receber uma curiosidade extra, infelizmente." << endl;
     }
     else {
